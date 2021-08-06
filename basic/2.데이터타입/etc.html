@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>기타 데이터 타입</title>
+</head>
+<body>
+    
+    <script>
+        //논리 타입
+        var logical = false;
+        logical = true;
+
+        //logical = True;
+
+        //js에서는 0은 false, 0이 아니면 true처럼 조건문을 사용할 수 있다.
+        var apple = 0;
+        if(apple) {
+            console.log('사과가 ' + apple + '개 있습니다.');
+        } else {
+            console.log('사과가 하나도 없습니다.');
+        }
+        console.log(typeof logical);
+
+        //null
+        var banana = '바나나';
+        console.log(typeof banana);
+        banana = null;
+        console.log(typeof banana); //null은 object타입으로 나타난다.
+    </script>
+
+</body>
+</html>
