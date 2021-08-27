@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        //문자열은 비어있으면 false, 차있으면 true
+        if('') console.log('OK1'); //false
+        if('hello') console.log('OK2'); //true
+
+        //undefined, null, Nan은 false
+        if(undefined) console.log('OK3'); //false
+        if(null) console.log('OK4'); //false
+        if(NaN) console.log('OK6'); //false
+        
+        //숫자는 0이면 false, 아니면 true
+        if(350) console.log('OK5'); //true
+        if(0) console.log('OK7'); //false
+        
+        //값이 들어있는 배열 true
+        if([1,2,3]) console.log('OK8'); //true
+    </script>
+</body>
+</html>
